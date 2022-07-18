@@ -1,0 +1,769 @@
+@font-face {
+    font-family: "YanoneKaffeesatz-Regular";
+    src: url("../fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.ttf");
+}
+
+@font-face {
+    font-family: "YanoneKaffeesatz-Bold";
+    src: url("../fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.ttf ");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: "YanoneKaffeesatz-Bold";
+    color: black;
+    margin: 0 !important;
+}
+
+p {
+    color: black;
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+}
+
+a:focus,
+a:active {
+    color: inherit !important;
+}
+
+body {
+    margin: 0;
+}
+
+header .container-fluid {
+    padding: 0 !important;
+}
+
+.nav-container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+a.nav-link {
+    font-family: "YanoneKaffeesatz-Bold";
+    font-size: 28px;
+    color: black;
+    background-position: center;
+}
+
+a.nav-link:not(hover) {
+    transition: 0.35s ease-in-out;
+    background-position: center;
+    background-size: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url("../img/Vector.svg");
+}
+
+a.nav-link:hover {
+    color: black;
+    transition: 0.35s ease-in-out;
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+a.navber-brand {
+    width: 106px !important;
+}
+
+.menu-ul {
+    margin-left: 43px;
+}
+
+.main-background {
+    background-image: url("../img/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-shadow {
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 10.63%),
+    linear-gradient(180deg, rgba(131, 131, 131, 0) 77.46%, #c7b1a4 100%);
+    background-size: cover;
+}
+
+.main {
+    height: 583px;
+    color: white;
+    text-align: center;
+}
+
+.main h1 {
+    padding-top: 65px;
+    font-family: "YanoneKaffeesatz-Regular";
+    font-size: 72px;
+    margin: 0;
+    color: white;
+}
+
+.main p {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.MainButton {
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(180deg, #c7b1a4 -108.33%, #000000 263.89%);
+    box-shadow: 0px 5px 10px rgba(199, 177, 164, 0.4);
+    border-radius: 25px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-family: "Montserrat-Regular";
+    font-size: 22px;
+}
+
+.MainButton:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(230, 204, 190, 0.863);
+}
+
+.MainButton:not(:hover) {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(199, 177, 164, 0.4);
+}
+
+.wave-img {
+    width: 100%;
+}
+
+.about-us {
+    padding-top: 14px;
+    margin-top: 14px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.about-us-blob {
+    background-repeat: no-repeat;
+    height: 164px;
+    max-height: 100%;
+    background-image: url("../img/blobAboutUs.svg");
+    background-size: 100% 100%;
+}
+
+.about-us-head {
+    margin-bottom: 14px;
+}
+
+.about-us p.text-center {
+    width: 612px;
+    max-width: 100%;
+}
+
+.row-about-us {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.about-us-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    width: 200px;
+    max-width: 100%;
+}
+
+.about-us-item p {
+    padding-top: 15px;
+    font-size: 14px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.row-about-us-2 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container-items {
+    padding-top: 40px;
+    background-image: url("../img/jar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.howtoget {
+    margin-top: 100px;
+}
+
+.howtoget h2 {
+    font-size: 36px;
+}
+
+.howtoget-blob {
+    background-repeat: no-repeat;
+    height: 106px;
+    max-height: 100%;
+    background-image: url("../img/howtogetblob.svg");
+    background-size: 100% 100%;
+}
+
+.map {
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+.background-container {
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    max-height: 100%;
+}
+
+.master-class-container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.master-class-blob {
+    background-repeat: no-repeat;
+    height: 142px;
+    max-height: 100%;
+    background-image: url("../img/masterClassBlob.svg");
+    background-size: 100% 100%;
+}
+
+.master-class-container h2 {
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+
+.row-master-class {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.master-class-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 auto;
+    width: 350px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: 700px;
+    max-height: 100%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.master-class-item img {
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.master-class-item .wrapper {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.master-class-item h4 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: "YanoneKaffeesatz-Regular";
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.master-class-item ul {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.master-class-item li p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.master-class-item .description {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.ms-price {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.ms-price span {
+    font-weight: bold;
+}
+
+.master-class-button {
+    width: 100%;
+    height: 68px;
+    border: 0;
+    background: #c6715a;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 28px;
+    color: white;
+    font-family: "YanoneKaffeesatz-Regular";
+}
+
+.wrapper-end {
+    margin-top: auto;
+}
+
+.wrapper-end p {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.events-container {
+    padding-top: 100px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.events-blob {
+    background-repeat: no-repeat;
+    height: 152px;
+    max-height: 100%;
+    background-image: url("../img/eventsBlob.svg");
+    background-size: 100% 100%;
+}
+
+.events-container .events-main-text {
+    width: 725px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.events-container .events-head h2 {
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+
+.event-card {
+    display: flex;
+    max-width: 100%;
+    background: linear-gradient(180deg, #ffcfb2 0%, #fbfbfb 100%);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.event-card img {
+    pointer-events: none;
+    user-select: none;
+    max-width: 555px;
+    min-height:580px;
+}
+.left-photo{
+    border-radius: 25px 0px 0px 25px;
+}
+.right-photo{
+    border-radius: 0px 25px 25px 0px;
+}
+
+.event-card .wrapper-card {
+    padding-top: 62px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wrapper-card form {
+    margin-top: auto;
+}
+
+.wrapper-card button {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 350px;
+    max-width: 100%;
+    height: 68px;
+    background-color: #c6715a;
+    border-radius: 25px;
+    border: 0;
+    color: white;
+    font-size: 28px;
+    font-family: "YanoneKaffeesatz-Regular";
+
+    margin-bottom: 60px;
+}
+
+.wrapper-card button:hover {
+    transition: 0.25s ease-in-out;
+    box-shadow: 0px 7px 7px rgba(224, 129, 103, 0.8);
+}
+
+.wrapper-card button:not(:hover) {
+    transition: 0.25s ease-in-out;
+}
+
+.wrapper-card .event-name {
+    padding-bottom: 20px;
+    font-size: 64px !important;
+    font-family: "YanoneKaffeesatz-Regular";
+}
+
+.wrapper-card .event-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.wrapper-card .event-description {
+    margin: 0;
+    font-size: 18px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.work-background {
+    background-color: #c6715a;
+    height: 170px;
+    max-height: 100%;
+}
+
+.work-container {
+    height: 170px;
+    max-height: 100%;
+}
+
+.work-container h4 {
+    font-size: 28px;
+    font-family: "YanoneKaffeesatz-Regular";
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: 400 !important;
+    margin: 0;
+}
+
+.work-container p {
+    color: white;
+    margin: 0;
+}
+
+.work-container p:last-child {
+    padding-top: 10px;
+}
+
+.work-container p a {
+    color: white;
+}
+
+.carousel {
+    max-height: 100%;
+}
+
+.carousel img {
+    pointer-events: none;
+    user-select: none;
+}
+
+.carousel-indicators button {
+    width: 21px !important;
+    height: 21px !important;
+    border-radius: 100%;
+    margin: 0 !important;
+    margin-right: 15px !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators button.active {
+    transition: 0.35s ease-in-out;
+    background-color: #c6715a !important;
+}
+
+.guests-works-blob {
+    background-repeat: no-repeat;
+    height: 133px;
+    max-height: 100%;
+    background-image: url("../img/blobVisitorsWork.svg");
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.guests-works-head h2 {
+    padding-bottom: 10px;
+}
+
+.guests-works-head p {
+    font-family: "YanoneKaffeesatz-Regular";
+    font-size: 28px;
+    margin: 0;
+}
+
+.form-background {
+    background-repeat: no-repeat;
+    background-image: url("../img/formbackground.png");
+    background-size: contain;
+    pointer-events: none;
+    user-select: none;
+}
+
+.form-container {
+    margin: 0 auto;
+    width: 1110px;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.form-blob {
+    background-repeat: no-repeat;
+    height: 110px;
+    max-height: 100%;
+    background-image: url("../img/blobForm.svg");
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+
+.form-container .form-head h2 {
+    padding-bottom: 10px;
+}
+
+.form-container .form-head p {
+    font-size: 28px;
+    font-family: "YanoneKaffeesatz-Regular";
+}
+
+.form-container .feedback-form {
+    width: 500px;
+    max-width: 100%;
+}
+
+.form-container .feedback-form input,
+select {
+    padding-left: 25px;
+    margin-bottom: 40px;
+    outline: none;
+    width: 500px;
+    max-width: 100%;
+    height: 45px;
+    border: 0;
+    background: #ffffff;
+    border: 1px solid #c6715a;
+    border-radius: 30px;
+}
+
+.form-container .feedback-form input:focus,
+select:focus {
+    transition: 0.35s ease-in-out;
+    filter: drop-shadow(0px 5px 20px #c4a99a);
+}
+
+.form-container .feedback-form input::placeholder {
+    color: black;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+}
+
+.form-container .feedback-form select {
+    color: black;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+    padding-right: 17px;
+    margin-top: 40px;
+}
+
+.form-container .feedback-form input:last-of-type {
+    margin: 0;
+}
+
+.form-container .feedback-form button {
+    background: #c6715a;
+    width: 350px;
+    height: 59px;
+    font-size: 24px;
+    font-family: "Montserrat-Regular";
+    margin-top: 40px;
+    border: 0;
+    color: white;
+    border-radius: 25px;
+}
+
+.form-container .feedback-form button:hover {
+    transition: 0.25s ease-in-out;
+    box-shadow: 0px 4px 7px rgba(224, 129, 103, 0.8);
+}
+
+.form-container .feedback-form button:not(:hover) {
+    transition: 0.25s ease-in-out;
+}
+
+footer {
+    height: 200px;
+    max-height: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer a:focus,
+footer a:active,
+footer a:hover,
+footer a:focus {
+    color: white !important;
+}
+
+.footer-container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contacts-social {
+    height: 200px;
+    max-height: 100%;
+}
+
+.footer-container a {
+    color: white;
+}
+
+.footer-container h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: "YanoneKaffeesatz-Regular";
+    padding-bottom: 20px;
+}
+
+.footer-container .contacts-social ul,
+.contacts-social li,
+.contacts-social a,
+.contacts-social p {
+    font-family: "Montserrat-Regular";
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.contacts-social li:not(:last-of-type, :first-of-type) {
+    padding-bottom: 10px;
+}
+
+.copyright {
+    padding-top: 20px !important;
+    text-align: center;
+    font-family: "YanoneKaffeesatz-Regular" !important;
+    font-size: 14px;
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+    header button {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container-items {
+        background-image: none;
+    }
+
+    .event-card {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .event-card img {
+        order: -1;
+        border-radius: 25px;
+    }
+
+    .event-card .event-description {
+        padding-bottom: 20px;
+    }
+
+    .form-background {
+        display: none;
+    }
+
+    .feedback-form {
+        margin: 0 auto;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .contacts-social {
+        padding: 20px;
+        height: 100%;
+        gap: 50px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main p {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    .row-about-us {
+        flex-wrap: wrap;
+    }
+
+    .row-about-us-2 {
+        flex-wrap: wrap;
+    }
+}
