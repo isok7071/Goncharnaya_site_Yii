@@ -8,6 +8,8 @@ admin@yandex.ru
 admin
 Админка расположена по адресу: Адрес сайта/admin
 
+Дамп БД в dump/
+
 
 =====================
 <p align="center">
