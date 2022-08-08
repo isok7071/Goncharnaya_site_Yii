@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 # Goncharnaya_site_Yii
 Сайт Гончарной мастерской с админкой, и другим бэкэндом на Yii.
 Статическая верстка и макет расположены в другом репозитории.
@@ -7,7 +7,11 @@
 admin@yandex.ru
 admin
 Админка расположена по адресу: Адрес сайта/admin
-=======
+
+Дамп БД в dump/
+
+
+=====================
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
