@@ -3,7 +3,7 @@
 return [
     
     'class' => 'yii\db\Connection',
-    'dsn' => 'psql:host='.$url['host'].';dbname='.substr($url["path"], 1).'',
+    'dsn' => 'pgsql:host='.$url['host'].';dbname='.substr($url["path"], 1).'',
     'username' => $url["user"],
     'password' => $url["pass"],
     'charset' => 'utf8',
