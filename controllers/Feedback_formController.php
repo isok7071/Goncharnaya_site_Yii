@@ -59,7 +59,6 @@ class Feedback_formController extends Controller
             return false;
         }
 
-
     }
 
     /**

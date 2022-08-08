@@ -18,6 +18,7 @@ class AdminController extends Controller
            return true;
        }else{
            $this->redirect(['/site/login/']);
+           $this->redirect(['/site/login/']);
            return false;
        }
     }
