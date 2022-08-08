@@ -1,7 +1,7 @@
 HEAD
 # Goncharnaya_site_Yii
 <h1>Ссылка на демонстрацию:</h2>
-<a href='http://goncharnaya.herokuapp.com/'>http://goncharnaya.herokuapp.com/</a>
+<a href='http://goncharnaya.herokuapp.com/'>http://goncharnaya.herokuapp.com/</a><br>
 Сайт Гончарной мастерской с админкой, и другим бэкэндом на Yii.
 Статическая верстка и макет расположены в другом репозитории.
 
