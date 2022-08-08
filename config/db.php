@@ -1,10 +1,11 @@
 <?php
-
+    $url = parse_url(getenv("DATABASE_URL"));
 return [
+    
     'class' => 'yii\db\Connection',
-    'dsn' => 'psql:host='.$_ENV['Host'].';dbname='.$_ENV['dbname'].'',
-    'username' => $_ENV['username'],
-    'password' => $_ENV['password'],
+    'dsn' => 'pgsql:host='.$url['host'].';port='.$url['port'].';dbname='.substr($url["path"], 1),
+    'username' => $url["user"],
+    'password' => $url["password"],
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
