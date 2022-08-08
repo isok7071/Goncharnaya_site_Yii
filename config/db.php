@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => $DATABASE_URL,
-    'username' => $username,
-    'password' => $password,
+    'dsn' => $_ENV["DATABASE_URL"],
+    'username' => $_ENV["username"],
+    'password' => $_ENV["password"],
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
