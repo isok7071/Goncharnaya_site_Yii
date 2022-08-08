@@ -3,9 +3,9 @@
 return [
     
     'class' => 'yii\db\Connection',
-    'dsn' => 'psql:host='.$url['host'].';port='.$url['port'].';dbname='.$url["database"],
-    'username' => $url["username"],
-    'password' => $url["password"],
+    'dsn' => 'psql:host='.$url['host'].';port='.$url['port'].';dbname='.substr($url["path"], 1).'',
+    'username' => $url["user"],
+    'password' => $url["pass"],
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
